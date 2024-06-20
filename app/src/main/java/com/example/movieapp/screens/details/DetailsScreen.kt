@@ -70,7 +70,7 @@ fun DetailsScreen(navController: NavController, movieID: String?) {
                                 navController.popBackStack()
                             }
                         )
-                        Spacer(modifier = Modifier.width(110.dp))
+                        Spacer(modifier = Modifier.width(112.dp))
                         Text(text = "Description")
                     }
                 },
